@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena eSports - Pesquisa</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    <header class="cabeçalho-principal">
+        <div class="container">
+            <h1 class="logo">Arena eSports</h1>
+            <nav class="barra-pesquisa">
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="jogos.html">JOGOS</a></li>
+                    <li><a href="noticias.html">NOTÍCIAS</a></li>
+                    <li><a href="formulario.html">PESQUISA</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container preenchimento-página">
+        <h2 class="page-title">Participe da Nossa Pesquisa</h2>
+        
+        <article class="formulario-container">
+            <p>Queremos saber sua opinião para melhorar o Arena eSports!</p>
+            
+            <form action="#" method="POST" class="formulario-pesquisa">
+                
+                <div class="form-grupo">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                
+                <div class="form-grupo">
+                    <p>Qual seu jogo favorito dos destaques?</p>
+                    <input type="radio" id="cs2" name="jogo-favorito" value="CS2">
+                    <label for="cs2">Counter-Strike 2</label><br>
+                    <input type="radio" id="rl" name="jogo-favorito" value="Rocket League">
+                    <label for="rl">Rocket League</label><br>
+                    <input type="radio" id="fc" name="jogo-favorito" value="EA FC">
+                    <label for="fc">EA Sports FC</label><br>
+                    <input type="radio" id="lol" name="jogo-favorito" value="LoL">
+                    <label for="lol">League of Legends</label>
+                </div>
+                
+                <div class="form-grupo">
+                    <label for="comentarios">Sugestões ou Comentários:</label>
+                    <textarea id="comentarios" name="comentarios" rows="5" placeholder="Deixe sua sugestão..."></textarea>
+                </div>
+                
+                <div class="form-grupo">
+                    <input type="submit" value="Enviar Opinião" class="botao-submit">
+                </div>
+                
+            </form>
+        </article>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2025 Arena eSports | Leandro e Jonas.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
